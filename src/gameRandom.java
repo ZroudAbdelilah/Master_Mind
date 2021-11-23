@@ -41,7 +41,7 @@ public class gameRandom {
        
     	   for (int b=0 ; b<10;b++) {
            	
-           	System.out.println("Entre  4 CHIFRE différent entre 1 et 6 :");
+           	System.out.println("Entre  4 CHIFRE diffÃ©rent entre 1 et 6 :");
            	Scanner input =new Scanner(System.in);
        		for (int i=0; i <4 ; i++) {
        			arr[i] = input.nextInt(); 
@@ -68,6 +68,9 @@ public class gameRandom {
 		    	   break;
 		       }
        		System.out.println("");
+                if(b == 9) {
+       			System.out.println("you lost sorry !!!!");
+       		}
            }
        
         
